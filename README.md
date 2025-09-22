@@ -1,6 +1,6 @@
 # Box Animation Project
 
-[Link]()
+[Link](https://mnadiia40.github.io/box-animation/)
 
 This project is a top banner section for a landing page, built with HTML and SCSS. It showcases a dynamic entry animation where packaging boxes and text elements appear on the screen.
 
@@ -14,7 +14,7 @@ It features custom CSS `@keyframes` animations for a smooth and modern user expe
 
 # Проєкт з анімацією коробок
 
-[Посилання]()
+[Посилання](https://mnadiia40.github.io/box-animation/)
 
 Цей проєкт — головна секція для лендінгу, створена за допомогою HTML та SCSS. Він демонструє динамічну анімацію появи, де пакувальні коробки та текстові елементи з'являються на екрані.
 
