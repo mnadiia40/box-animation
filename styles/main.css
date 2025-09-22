@@ -1,0 +1,381 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Familjen Grotesk", sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+.top-banner {
+  background-image: url("../images/top-banner/background.webp");
+  background-position: center;
+  background-size: 100% auto;
+  padding: 200px 0 25px 0;
+}
+
+.top-banner__wrapper {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.top-banner__content {
+  background-image: url("../images/top-banner/content-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  max-width: 639px;
+  height: 502px;
+  padding-top: 90px;
+  padding-left: 70px;
+  padding: 30px;
+  margin: 0 auto;
+  z-index: 100;
+  position: relative;
+}
+
+.top-banner__subtitle {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.top-banner__title {
+  font-size: 30px;
+  font-weight: 500;
+  max-width: 490px;
+  line-height: 45.44px;
+  margin-top: 10px;
+}
+
+.top-banner__description {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22.5px;
+  margin: 25px 0 18px 0;
+  max-width: 420px;
+}
+
+.top-banner__explore {
+  display: inline-block;
+  max-width: 222px;
+  font-size: 18px;
+  background: #C0C0A8;
+  padding: 16px 40px;
+  border-radius: 50px;
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.top-banner__explore:hover {
+  background: #DFDFC9;
+}
+
+.top-banner__rating-stars {
+  margin-top: 17px;
+}
+
+.top-banner__rating-text {
+  color: #393939;
+  font-size: 14px;
+  margin: 0;
+  max-width: 150px;
+  line-height: 17.5px;
+}
+
+.top-banner__rating-link {
+  color: #393939;
+}
+
+.top-banner__boxes-box1 {
+  position: absolute;
+  left: 5vw;
+  width: 18vw;
+  max-width: 650px;
+  z-index: 10;
+}
+
+.top-banner__boxes-box2 {
+  position: absolute;
+  left: 23vw;
+  width: 8vw;
+  max-width: 650px;
+  z-index: 5;
+}
+
+.top-banner__boxes-box3 {
+  position: absolute;
+  left: 41vw;
+  width: 12vw;
+  max-width: 650px;
+  z-index: 10;
+}
+
+.top-banner__boxes-box4 {
+  position: absolute;
+  left: 59vw;
+  width: 7vw;
+  max-width: 650px;
+  z-index: 2;
+}
+
+.top-banner__boxes-box5 {
+  position: absolute;
+  left: 77vw;
+  width: 11vw;
+  max-width: 650px;
+  z-index: 5;
+}
+
+.top-banner__boxes-domino {
+  position: absolute;
+  width: 30vw;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 5vh;
+  z-index: 0;
+  max-width: 482px;
+}
+
+.top-banner__features {
+  display: flex;
+  gap: 80px;
+  margin-top: 30px;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 481px) {
+  .top-banner {
+    padding: 250px 0 25px 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .top-banner__subtitle {
+    font-size: 20px;
+  }
+  .top-banner__title {
+    font-size: 45px;
+  }
+  .top-banner__description {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .top-banner {
+    padding: 90px 0 25px 0;
+  }
+  .top-banner__content {
+    display: block;
+    margin-left: 100px;
+    padding-top: 90px;
+    padding-left: 70px;
+  }
+  .top-banner__rating {
+    display: block;
+  }
+  .top-banner__features {
+    margin-left: 130px;
+    justify-content: left;
+  }
+  .top-banner__wrapper {
+    position: relative;
+  }
+  .top-banner__boxes-box1 {
+    left: unset;
+    right: 30vw;
+  }
+  .top-banner__boxes-box2 {
+    left: unset;
+    right: 24vw;
+  }
+  .top-banner__boxes-box3 {
+    left: unset;
+    right: 10vw;
+  }
+  .top-banner__boxes-box4 {
+    left: unset;
+    right: 16.3vw;
+  }
+  .top-banner__boxes-box5 {
+    left: unset;
+    right: 5vw;
+  }
+  .top-banner__boxes-domino {
+    left: unset;
+    top: 0;
+    right: 10vw;
+    transform: unset;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .top-banner__boxes-box1 {
+    right: 500px;
+    width: 350px;
+  }
+  .top-banner__boxes-box2 {
+    right: 450px;
+    width: 150px;
+  }
+  .top-banner__boxes-box3 {
+    right: 200px;
+    width: 200px;
+  }
+  .top-banner__boxes-box4 {
+    right: 300px;
+    width: 150px;
+  }
+  .top-banner__boxes-box5 {
+    right: 100px;
+    width: 150px;
+  }
+  .top-banner__boxes-domino {
+    right: 120px;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideUp {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes leftToRight {
+  from {
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes animationBox1 {
+  from {
+    transform: rotate(0deg);
+    top: -100px;
+  }
+  to {
+    transform: rotate(-10deg);
+    top: 10%;
+    opacity: 1;
+  }
+}
+@keyframes animationBox2 {
+  from {
+    transform: rotate(0deg);
+    top: -100px;
+  }
+  to {
+    transform: rotate(10deg);
+    top: 7%;
+    opacity: 1;
+  }
+}
+@keyframes animationBox3 {
+  from {
+    transform: rotate(0deg);
+    top: -100px;
+  }
+  to {
+    transform: rotate(-10deg);
+    top: 20%;
+    opacity: 1;
+  }
+}
+@keyframes animationBox4 {
+  from {
+    transform: rotate(0deg);
+    top: -100px;
+  }
+  to {
+    transform: rotate(10deg);
+    top: 5%;
+    opacity: 1;
+  }
+}
+@keyframes animationBox5 {
+  from {
+    transform: rotate(0deg);
+    top: -100px;
+  }
+  to {
+    transform: rotate(10deg);
+    top: 2%;
+    opacity: 1;
+  }
+}
+.top-banner__title {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.top-banner__rating-stars {
+  opacity: 0;
+  animation: slideUp 0.5s ease-in-out forwards;
+}
+
+.top-banner__rating-text {
+  opacity: 0;
+  animation: slideUp 0.5s ease-in-out 0.3s forwards;
+}
+
+.top-banner__boxes-domino {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.top-banner__features-item:first-of-type {
+  opacity: 0;
+  animation: leftToRight 0.5s ease-in-out forwards;
+}
+
+.top-banner__features-item:nth-of-type(2) {
+  opacity: 0;
+  animation: leftToRight 0.5s ease-in-out 0.3s forwards;
+}
+
+.top-banner__boxes-box1 {
+  opacity: 0;
+  animation: animationBox1 0.5s ease-in-out forwards;
+}
+
+.top-banner__boxes-box2 {
+  opacity: 0;
+  animation: animationBox2 0.5s ease-in-out forwards;
+  animation-delay: 0.2s;
+}
+
+.top-banner__boxes-box3 {
+  opacity: 0;
+  animation: animationBox3 0.5s ease-in-out forwards;
+  animation-delay: 0.4s;
+}
+
+.top-banner__boxes-box4 {
+  opacity: 0;
+  animation: animationBox4 0.5s ease-in-out forwards;
+  animation-delay: 0.6s;
+}
+
+.top-banner__boxes-box5 {
+  opacity: 0;
+  animation: animationBox5 0.5s ease-in-out forwards;
+  animation-delay: 0.8s;
+}
+
+/*# sourceMappingURL=main.css.map */
